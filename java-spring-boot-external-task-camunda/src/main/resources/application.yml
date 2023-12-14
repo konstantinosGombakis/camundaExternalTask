@@ -1,0 +1,15 @@
+camunda:
+  bpm:
+    client:
+      base-url: http://localhost:8080/engine-rest
+      lock-duration: 1000
+      worker-id: spring-boot-worker
+      async-response-timeout: 3000
+      max-tasks: 1
+      
+
+
+logging:
+  level:
+    org:
+      camunda.bpm.client.spring: DEBUG

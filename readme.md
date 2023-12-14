@@ -25,3 +25,9 @@ To prevent one task being fetched by multiple workers at the same time, a task h
 See it in action:  ![externalRaiseTemperature.gif](./visual/externalRaiseTemperature.gif)
 
 https://github.com/camunda-community-hub/camunda-external-task-client-python3
+
+## For java
+1. Run Camunda and deploy the externalRaiseTemperature.bpmn
+2. Run the application
+   ```mvn spring-boot:run```
+3. See the logs for temperature raise
